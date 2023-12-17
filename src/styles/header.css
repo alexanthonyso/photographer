@@ -1,0 +1,17 @@
+.logo-container {
+  margin-top: 60px;
+  position: fixed;
+  top: 0;
+}
+.title {
+  position: fixed;
+  top: 0;
+  margin-top: 500px;
+}
+
+span {
+  color: #8f314d;
+  font-weight: bold;
+}
+
+

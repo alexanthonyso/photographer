@@ -1,0 +1,21 @@
+* {
+  width: auto;
+  height: auto;
+  font-family: "Rajdhani", sans-serif;
+}
+
+main {
+  max-width: 1920px;
+  margin: auto;
+}
+
+body {
+  background-color: #000000;
+}
+
+h1,
+p {
+  color: #c0c0c0;
+  font-weight: 400;
+}
+
