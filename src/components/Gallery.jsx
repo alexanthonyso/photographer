@@ -2,17 +2,17 @@ import React, { useEffect, useState } from "react";
 import "../styles/gallery.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import image1 from "../assets/img/img1.png";
-import image2 from "../assets/img/img2.png";
-import image3 from "../assets/img/img3.png";
-import image4 from "../assets/img/img4.png";
-import image5 from "../assets/img/img5.png";
-import image6 from "../assets/img/img6.png";
-import image7 from "../assets/img/img7.png";
-import image8 from "../assets/img/img8.png";
-import image9 from "../assets/img/img9.png";
-import image10 from "../assets/img/img10.png";
-import image11 from "../assets/img/img11.png";
+import image1 from "../assets/img/img1.webp";
+import image2 from "../assets/img/img2.webp";
+import image3 from "../assets/img/img3.webp";
+import image4 from "../assets/img/img4.webp";
+import image5 from "../assets/img/img5.webp";
+import image6 from "../assets/img/img6.webp";
+import image7 from "../assets/img/img7.webp";
+import image8 from "../assets/img/img8.webp";
+import image9 from "../assets/img/img9.webp";
+import image10 from "../assets/img/img10.webp";
+import image11 from "../assets/img/img11.webp";
 
 const Gallery = () => {
   const imageUrls = [
