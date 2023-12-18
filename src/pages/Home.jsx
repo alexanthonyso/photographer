@@ -5,7 +5,7 @@ import "../styles/home.css";
 import Gallery from "../components/Gallery";
 import Header from "../components/Header";
 
-import "aos/dist/aos.css";
+
 
 function Home() {
   return (

@@ -28,7 +28,9 @@ const Gallery = () => {
   const [hoveredImage, setHoveredImage] = useState(null);
 
   useEffect(() => {
-    AOS.init();
+    setTimeout(() => {
+      AOS.init();
+    }, 100);
   }, []);
 
   return (
