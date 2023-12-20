@@ -19,11 +19,15 @@ const Header = () => {
         {/* Utilisez un Link de react-router-dom pour gérer la navigation */}
         <Link to="/">
           {/* Utilisez l'opérateur ternaire pour choisir le logo en fonction de l'état */}
-          <img className="logo" src={afficherTitreOriginal ? Logo : Logo2} alt="Logo" />
+          <img
+            className="logo"
+            src={afficherTitreOriginal ? Logo : Logo2}
+            alt="Logo"
+          />
         </Link>
       </div>
 
-      <div className={`title ${afficherTitreOriginal ? '' : 'hide'}`}>
+      <div className={`title ${afficherTitreOriginal ? "" : "hide"}`}>
         {/* Rendre conditionnellement le titre en fonction de l'état */}
         <>
           <h1>JUN HOON</h1>
@@ -31,11 +35,17 @@ const Header = () => {
         </>
       </div>
 
-      <div className={`title title-transition ${afficherTitreOriginal ? 'hide' : ''}`}>
+      <div
+        className={`title title-transition ${
+          afficherTitreOriginal ? "hide" : ""
+        }`}
+      >
         {/* Rendre conditionnellement le titre en fonction de l'état */}
         <>
           <h1>ABOUT</h1>
-          <p>I LIKE <span>RED</span></p>
+          <p>
+            I LIKE <span>RED</span>
+          </p>
           <h1>CONTACT</h1>
           <p>junhon@mail.com</p>
         </>

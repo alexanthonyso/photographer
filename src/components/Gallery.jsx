@@ -25,7 +25,7 @@ const Gallery = () => {
     // Ajoutez d'autres classes AOS selon vos besoins
   ];
 
-  const [hoveredImage, setHoveredImage] = useState(null);
+  const [hoveredImage, ] = useState(null);
 
   useEffect(() => {
     setTimeout(() => {

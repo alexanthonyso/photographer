@@ -1,11 +1,9 @@
 import React from "react";
 
 import "../styles/main.css";
-import "../styles/home.css";
+
 import Gallery from "../components/Gallery";
 import Header from "../components/Header";
-
-
 
 function Home() {
   return (

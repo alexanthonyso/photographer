@@ -10,11 +10,17 @@
   top: 0;
   margin-top: 500px;
   margin-left: 20PX;
+ 
 }
 
 span {
   color: #8f314d;
   font-weight: bold;
+}
+
+img{
+
+  width: 100%;
 }
 
 .title.hide {
@@ -29,3 +35,26 @@ span {
 .title-transition.hide {
   opacity: 0;
 }
+
+@media (max-width: 835px) {
+  .title {
+position: relative;
+margin-top: 0;
+margin-left: 42%;
+
+
+
+  }
+
+  .responsive-title {
+    display: block; /* Afficher la classe responsive-title sur les écrans plus petits */
+  }
+
+  .hide {
+    display: none; /* Assurez-vous que la classe hide continue de masquer les éléments si nécessaire */
+  }
+}
+
+
+    
+  

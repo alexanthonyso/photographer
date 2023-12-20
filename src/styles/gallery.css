@@ -2,9 +2,22 @@
   display: flex;
   flex-wrap: wrap;
   margin-left: 20%;
+  margin-right: 5%;
   margin-top: 160px;
   gap: 30px;
   margin-bottom: 160px;
 }
 
 
+@media (max-width: 835px) {
+  .gallery-container{
+
+margin-top: 0;
+
+
+
+
+  }
+
+
+}
