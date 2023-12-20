@@ -2,11 +2,14 @@
   margin-top: 60px;
   position: fixed;
   top: 0;
+  margin-left: 20PX;
 }
 .title {
+  transition: opacity 0.5s ease-in-out;
   position: fixed;
   top: 0;
   margin-top: 500px;
+  margin-left: 20PX;
 }
 
 span {
@@ -14,4 +17,15 @@ span {
   font-weight: bold;
 }
 
+.title.hide {
+  opacity: 0;
+}
 
+/* Ajoutez ces styles pour la transition entre les deux contenus */
+.title-transition {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.title-transition.hide {
+  opacity: 0;
+}

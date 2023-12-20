@@ -13,8 +13,6 @@ const Header = () => {
     setAfficherTitreOriginal(!afficherTitreOriginal);
   };
 
-  
-
   return (
     <header>
       <div className="logo-container" onClick={handleClick}>
@@ -25,21 +23,22 @@ const Header = () => {
         </Link>
       </div>
 
-      <div className="title">
+      <div className={`title ${afficherTitreOriginal ? '' : 'hide'}`}>
         {/* Rendre conditionnellement le titre en fonction de l'état */}
-        {afficherTitreOriginal ? (
-          <>
-            <h1>JUN HOON</h1>
-            <p>PHOTOGRAPHER</p>
-          </>
-        ) : (
-          <>
-            <h1>ABOUT</h1>
-            <p>I LIKE <span>RED</span></p>
-            <h1>CONTACT</h1>
-            <p>junhon@mail.com</p>
-          </>
-        )}
+        <>
+          <h1>JUN HOON</h1>
+          <p>PHOTOGRAPHER</p>
+        </>
+      </div>
+
+      <div className={`title title-transition ${afficherTitreOriginal ? 'hide' : ''}`}>
+        {/* Rendre conditionnellement le titre en fonction de l'état */}
+        <>
+          <h1>ABOUT</h1>
+          <p>I LIKE <span>RED</span></p>
+          <h1>CONTACT</h1>
+          <p>junhon@mail.com</p>
+        </>
       </div>
     </header>
   );
